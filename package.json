@@ -1,0 +1,41 @@
+{
+  "name": "generic_starter",
+  "version": "1.0.0",
+  "description": "A generic starting structure for simple sites. This is also meant to be a good starting point for more complex sites that have different file structures. Feel free to augment and adopt to your situation.",
+  "main": "index.js",
+  "author": "Jeremy 'Jermbo' Lawson",
+  "license": "MIT",
+  "scripts": {
+    "dev": "gulp",
+    "compile": "gulp compile"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.7.4",
+    "@babel/plugin-proposal-optional-chaining": "^7.7.5",
+    "@babel/preset-env": "^7.7.5",
+    "@babel/register": "^7.7.4",
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^6.7.2",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-changed": "^4.0.2",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^6.2.0",
+    "gulp-load-plugins": "^2.0.1",
+    "gulp-newer": "^1.4.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-size": "^3.0.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "gulp-uglifycss": "^1.1.0",
+    "gulp-webp": "^4.0.1",
+    "yargs": "^14.2.2"
+  }
+}
